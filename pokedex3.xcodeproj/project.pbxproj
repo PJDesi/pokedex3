@@ -19,6 +19,7 @@
 		117DF2BA1EFEC12E00721B5E /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117DF2B91EFEC12E00721B5E /* Pokemon Solid.ttf */; };
 		117DF2BF1EFEC29400721B5E /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 117DF2BE1EFEC29400721B5E /* music.png */; };
 		117DF2C11EFEC2A500721B5E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 117DF2C01EFEC2A500721B5E /* music.mp3 */; };
+		117DF2C41EFF22DA00721B5E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 117DF2C31EFF22DA00721B5E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		117DF2B91EFEC12E00721B5E /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		117DF2BE1EFEC29400721B5E /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		117DF2C01EFEC2A500721B5E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		117DF2C31EFF22DA00721B5E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		110CE4D61EF9B0E6002DDF1B = {
 			isa = PBXGroup;
 			children = (
+				117DF2C31EFF22DA00721B5E /* .gitignore */,
 				110CE4E11EF9B0E6002DDF1B /* pokedex3 */,
 				110CE4E01EF9B0E6002DDF1B /* Products */,
 			);
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117DF2C41EFF22DA00721B5E /* .gitignore in Resources */,
 				117DF2BA1EFEC12E00721B5E /* Pokemon Solid.ttf in Resources */,
 				110CE4ED1EF9B0E6002DDF1B /* LaunchScreen.storyboard in Resources */,
 				110CE4EA1EF9B0E6002DDF1B /* Assets.xcassets in Resources */,
