@@ -50,12 +50,26 @@ class PokemonDetailVC: UIViewController {
     }
     
     func updateUI() {
-        
+        descriptionLbl.text = pokemonCharacter.description
         baseAttackLbl.text = pokemonCharacter.attack
         defenseLbl.text = pokemonCharacter.defense
         heightLbl.text = pokemonCharacter.height
         weightLbl.text = pokemonCharacter.weight
         typeLbl.text = pokemonCharacter.type
+        
+        if pokemonCharacter.nextEvolutionId == "" {
+        
+            evoLbl.text = "No Evolutions"
+            nextEvoImg.isHidden = true
+        
+        } else {
+            
+            nextEvoImg.isHidden = false
+            nextEvoImg.image = UIImage(named: pokemonCharacter.nextEvolutionId)
+            let str = "Next Evolution: \(pokemonCharacter.nextEvolutionName) - LVL \(pokemonCharacter.nextEvolutionLevel)"
+            evoLbl.text = str
+            
+        }
     }
 
     @IBAction func backBtnPressed(_ sender: Any) {
